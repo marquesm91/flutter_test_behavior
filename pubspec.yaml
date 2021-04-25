@@ -1,0 +1,20 @@
+name: flutter_test_behavior
+description: Interacte with Flutter Widgets the same way the user does.
+version: 0.1.0
+author: Matheus Marques <marquesm91@gmail.com>
+repository: https://github.com/marquesm91/flutter_test_behavior.git
+issue_tracker: https://github.com/marquesm91/flutter_test_behavior/issues
+homepage: https://github.com/marquesm91/flutter_test_behavior.git
+documentation: https://github.com/marquesm91/flutter_test_behavior.git#readme
+
+environment:
+  sdk: ">=2.12.0-0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  mocktail: ^0.1.1
