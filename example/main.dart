@@ -31,7 +31,7 @@ void main() {
   });
 
   testWidgets('Should perform a tap on ButtonWidget', (tester) async {
-    final button = UserEvents(tester, FormKeys.button);
+    final button = UserEvent(tester, FormKeys.button);
 
     await tester.pumpWidget(pageWidget);
 
@@ -44,7 +44,7 @@ void main() {
 
   testWidgets('Should perform a tap and enter text on InputWidget',
       (tester) async {
-    final input = UserEvents(tester, FormKeys.input);
+    final input = UserEvent(tester, FormKeys.input);
 
     String typedText = 'hi';
 
@@ -63,7 +63,7 @@ void main() {
 
   testWidgets('Should perform a tap and erase text on InputWidget',
       (tester) async {
-    final input = UserEvents(tester, FormKeys.input);
+    final input = UserEvent(tester, FormKeys.input);
 
     String typedText = 'hi';
 

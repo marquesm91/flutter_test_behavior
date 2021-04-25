@@ -3,8 +3,8 @@ library flutter_test_behavior;
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 
-class UserEvents {
-  UserEvents(this.tester, this.key);
+class UserEvent {
+  UserEvent(this.tester, this.key);
 
   final WidgetTester tester;
   final Key key;
